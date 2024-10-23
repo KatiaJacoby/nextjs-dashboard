@@ -4,7 +4,6 @@ import {
   UserGroupIcon,
   InboxIcon,
 } from '@heroicons/react/24/outline';
-import { PatrickHand } from '.fonts';
 import "./cards.css";
 
 const iconMap = {
