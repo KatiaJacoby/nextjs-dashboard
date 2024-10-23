@@ -5,6 +5,7 @@ const base = new Airtable({
     apiKey: process.env.NEXT_APP_AUTH_TOKEN
 }).base(process.env.NEXT_APP_BASE_ID)
 
+
 const table = base(process.env.NEXT_APP_TABLE_ID)
 
 const getCardedRecords = records => {
