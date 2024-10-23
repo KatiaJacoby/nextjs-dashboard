@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f9f0f0;
+  }
+  
+
+  .title {
+    font-family: 'Patrick Hand', cursive;
+    color: #000000;
+    font-size: 2.0rem;
+    margin-top: 2rem;
+    padding: 4rem;
+  }
+  
+  
+  .experiences {
+    margin-top: rem;
+    padding: 2rem;
+    width: 100%; 
+    text-align: center;
+    
+  }
+  
+  .boxes {
+    display: flex;
+    background-color: blf9f0f0;
+    justify-content: space-around;
+    gap: 1rem; 
+    flex-wrap: wrap; 
+
+  }
+  

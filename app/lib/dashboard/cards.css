@@ -1,0 +1,87 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f9f0f0;
+  width: 100%
+}
+
+.title {
+  font-family: 'Patrick Hand', cursive;
+  color: #000000;
+  font-size: 2.0rem;
+  margin-top: 2rem;
+  padding: 4rem;
+}
+
+.experiences {
+  margin-top: 0rem;
+  padding: 2rem;
+  width: 100%; 
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between; /* Distribute boxes with space between them */
+  gap: 1rem; /* Optional: Adjust the space between boxes */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.box {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 30%; /* Adjust the width of each box */
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 2%;
+}
+
+.box:hover {
+  transform: translateY(-10px); 
+  background-color: #e0e0e0; 
+}
+
+.boxImage {
+  width: auto; 
+  height: 80%; 
+  max-height: 150px;
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.boxText {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+}
+
+.boxDescription {
+  font-size: 0.9rem; 
+  color: #666; 
+  margin-top: 0.5rem;
+  text-align: center;
+  line-height: 1.4; 
+}
+
+/* Responsive behavior for mobile */
+@media (max-width: 768px) {
+  .boxes {
+    flex-direction: column; /* Stack boxes vertically on smaller screens */
+  }
+
+  .box {
+    width: 100%; /* Full width on mobile */
+  }
+}
+
+
